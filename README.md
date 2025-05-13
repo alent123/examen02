@@ -15,25 +15,25 @@ Este proyecto es un sistema de gestión de usuarios desarrollado en PHP, utiliza
 
 lab2-php-poo/
 │
-├── clases/
-│   ├── Persona.php
-│   └── Usuario.php
+├── clases/ # Clases PHP para el manejo de objetos
+│ ├── Persona.php # Clase que representa una persona
+│ └── Usuario.php # Clase que extiende Persona, específica para el manejo de usuarios
 │
-├── config/
-│   └── db.php
+├── config/ # Archivos de configuración
+│ └── db.php # Configuración de la base de datos
 │
-├── sesiones/
-│   ├── login.php
-│   ├── logout.php
-│   └── perfil.php
+├── sesiones/ # Archivos que gestionan el inicio de sesión y perfil
+│ ├── login.php # Lógica para iniciar sesión
+│ ├── logout.php # Lógica para cerrar sesión
+│ └── perfil.php # Lógica para ver y editar el perfil de usuario
 │
-├── public/
-│   ├── index.php
-│   ├── login_form.php
-│   └── usuarios.php
+├── public/ # Archivos accesibles públicamente
+│ ├── index.php # Página principal de la aplicación
+│ ├── login_form.php # Formulario de inicio de sesión
+│ └── usuarios.php # Página que lista los usuarios
 │
-└── assets/
-    └── style.css
+└── assets/ # Archivos estáticos (CSS, JS, etc.)
+└── style.css # Archivo CSS para el estilo de las páginas
 
 
 ---
